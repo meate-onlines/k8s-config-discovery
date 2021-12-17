@@ -5,7 +5,7 @@ composer install kuke/k8s-config-discovery
 ```
 
 # desc
-完美融合hyperf官方的config-center,提供autoload目录下的项目启动后配置的热更新.
+完美融合hyperf官方的config-center,提供autoload目录下的项目启动后配置的热更新,解决php项目使用k8s的configMap作为配置中心的问题.
 
 # useAge
 ```
