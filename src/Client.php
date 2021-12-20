@@ -40,6 +40,9 @@ class Client implements ClientInterface
         foreach ($listener as $item) {
             $key = basename($item, '.php');
             $filePath = $base_path . $item;
+            if (!file_exists($filePath)) {
+               continue;
+            }
             $scrapy = file_get_contents($filePath);
             $scrapy = ltrim($scrapy, '<?php');
             $scrapy = rtrim($scrapy, '?>');
