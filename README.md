@@ -1,7 +1,7 @@
 # install
 
 ```
-composer install kuke/k8s-config-discovery
+composer require kuke/k8s-config-discovery
 ```
 
 # desc
